@@ -1,4 +1,7 @@
-function abc(num: number): number {
-  return num
-}
-console.log("index.ts->index.js")
+import "./style/index.less"
+import GameControl from "./GameControl"
+const gc = new GameControl()
+
+
+
+
